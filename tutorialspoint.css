@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.navbar {
+    font-size: 18px;
+    background-color: #2d2d2d;
+    padding: 10px;
+    padding-left: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.searchbar input{
+    width: 350px;
+    height: 30px;
+}
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar .menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.courses{
+    overflow-x: auto;
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.courses a{
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 80px;
+}
+.container {
+    display: flex;
+    margin: 20px;
+    margin-top: 60px;
+}
+.sidebar {
+    width: 250px;
+    height: 500px;
+    overflow-y: auto;
+    background: white;
+    padding: 15px;
+    font-size: 20px;
+}
+.sidebar h2{
+    color: #ddd;
+    background-color: #008d1f;
+    margin: 0%;
+    margin-bottom: 20px;
+    padding: 40px;
+}
+.sidebar a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+}
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background: white;
+    resize: horizontal;
+    width: 70%;
+}
+.banner {
+    text-align: center;
+    padding: 20px;
+    text-align: left;
+    font-size: 25px;
+    background-color: #2d2d2d;
+}
+.banner h1 {
+    margin: 55px;
+    margin-left: 0%;
+    border: #ddd;
+    background-color: #008d1f;
+    width: 300px;
+    padding: 20px 80px 20px 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.banner p{
+     color:#ff0;
+}
+.content{
+    font-size: 20px;
+    
+}
